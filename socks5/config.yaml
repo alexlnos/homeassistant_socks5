@@ -18,3 +18,5 @@ options:
 schema:
   message: "str?"
 image: "ghcr.io/home-assistant/{arch}-addon-example"
+ports:
+  "1080/tcp": 1080
